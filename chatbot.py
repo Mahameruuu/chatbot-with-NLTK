@@ -45,7 +45,13 @@ def chat_with_bot():
         if user_input.lower() == 'exit':
             print("Bot: Sampai jumpa lagi!")
             break
-        bot_response = chatbot.respond(user_input)
+
+        # Identifikasi jika pengguna mengirim pesan marah
+        if 'marah' in user_input.lower() or 'kesal' in user_input.lower() or 'ngamuk' in user_input.lower():
+            bot_response = "Maaf jika ada yang membuat Anda marah. Saya di sini untuk membantu. Ada yang bisa saya lakukan?"
+        else:
+            bot_response = chatbot.respond(user_input)
+
         print("Bot:", bot_response)
         save_chat_to_database(user_input, bot_response)
 

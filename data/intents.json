@@ -34,5 +34,25 @@
     {
         "pattern": ["tidak", "no", "bukan"],
         "responses": ["Baiklah, tidak apa-apa. Jika ada yang ingin Anda bicarakan, saya di sini."]
+    },
+    {
+        "pattern": ["marah", "kesal", "ngamuk"],
+        "responses": ["Maaf jika ada yang membuat Anda marah. Saya di sini untuk membantu. Ada yang bisa saya lakukan?"]
+    },
+    {
+        "pattern": ["apa kabar hari ini?", "bagaimana hari ini?"],
+        "responses": ["Hari ini sangat baik! Bagaimana dengan Anda?"]
+    },
+    {
+        "pattern": ["saya bosan", "aku merasa bosan"],
+        "responses": ["Kenapa tidak mencoba melakukan sesuatu yang menarik seperti membaca buku atau mendengarkan musik?"]
+    },
+    {
+        "pattern": ["apa yang kamu lakukan?", "sedang apa kamu?"],
+        "responses": ["Saya sedang di sini untuk berbicara dengan Anda dan membantu sebisa mungkin."]
+    },
+    {
+        "pattern": ["kamu suka makanan apa?", "makanan favoritmu apa?"],
+        "responses": ["Saya tidak bisa makan, tetapi saya suka mendengar tentang makanan favorit Anda!"]
     }
 ]
