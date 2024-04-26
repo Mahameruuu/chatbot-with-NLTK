@@ -1,0 +1,38 @@
+[
+    {
+        "pattern": ["hai", "hello"],
+        "responses": ["Halo, apa kabar?"]
+    },
+    {
+        "pattern": ["bagaimana kabarmu?", "apa kabar?"],
+        "responses": ["Saya baik-baik saja, terima kasih! Bagaimana dengan Anda?"]
+    },
+    {
+        "pattern": ["terima kasih", "thanks", "makasih"],
+        "responses": ["Sama-sama! Ada yang bisa saya bantu?"]
+    },
+    {
+        "pattern": ["sudah makan?", "apa yang kamu makan?"],
+        "responses": ["Sudah makan kok. Bagaimana dengan Anda?"]
+    },
+    {
+        "pattern": ["saya ingin bertanya", "ada yang bisa saya tanyakan?"],
+        "responses": ["Tentu, silakan bertanya. Saya siap membantu."]
+    },
+    {
+        "pattern": ["saya suka musik", "apa lagu favoritmu?"],
+        "responses": ["Musik memang menyenangkan. Lagu favorit saya adalah genre Apakah Anda juga suka musik?"]
+    },
+    {
+        "pattern": ["apa hobi kamu?", "hobi kamu apa?"],
+        "responses": ["Hobi saya adalah membantu orang lain melalui percakapan. Bagaimana dengan Anda, apa hobi Anda?"]
+    },
+    {
+        "pattern": ["terima kasih sudah membantu", "saya senang berbicara denganmu"],
+        "responses": ["Sama-sama, senang bisa membantu Anda. Jangan ragu untuk kembali jika ada yang perlu ditanyakan."]
+    },
+    {
+        "pattern": ["tidak", "no", "bukan"],
+        "responses": ["Baiklah, tidak apa-apa. Jika ada yang ingin Anda bicarakan, saya di sini."]
+    }
+]
