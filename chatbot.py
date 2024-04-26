@@ -4,7 +4,6 @@ import mysql.connector
 import json
 import pandas as pd
 
-
 nltk.download('punkt')
 
 db_connection = mysql.connector.connect(
@@ -43,10 +42,11 @@ def chat_with_bot():
     print("Bot: Hai, ada yang bisa saya bantu?")
     while True:
         user_input = input("You: ")
+        if user_input.lower() == 'exit':
+            print("Bot: Sampai jumpa lagi!")
+            break
         bot_response = chatbot.respond(user_input)
         print("Bot:", bot_response)
         save_chat_to_database(user_input, bot_response)
-        if user_input.lower() == 'exit':
-            break
 
 chat_with_bot()
